@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhevans17/nodejs-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhevans17/nodejs-crud/issues"
+  },
+  "homepage": "https://github.com/Bhevans17/nodejs-crud#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-validator": "^6.12.1",
+    "handlebars": "^4.7.7",
+    "sequelize": "^6.6.5"
+  }
+}
